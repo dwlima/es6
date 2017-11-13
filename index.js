@@ -9,7 +9,7 @@ class Message {
     }
     set created(created){
         if(!created || isNaN(created)){
-            throw new Error("invalid created");
+            throw new Error('invalid created');
         }
         this._created = created;
     }
