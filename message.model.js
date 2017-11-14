@@ -23,4 +23,5 @@ class Message {
     return new Message();
   }
 }
-module.exports = Message;
+//module.exports = Message;
+export default Message;

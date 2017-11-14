@@ -1,4 +1,8 @@
-const Message = require('./message.model');
+//const Message = require('./message.model');
+//import {default as Message, map, reduce } from './message.model';
+// importar tudo
+//import * as _ 'lodash';
+import Message from './message.model';
 
 class ImageMessage extends Message {
   constructor(text = '', created = Date.now(),
@@ -18,4 +22,6 @@ class ImageMessage extends Message {
            `- Thumbnail: ${this.thumbnail}`;
   }
 }
-module.exports = ImageMessage;
+
+// module.exports = ImageMessage;
+export default ImageMessage;
