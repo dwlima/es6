@@ -15,6 +15,7 @@ document.getElementById('send').onclick = () => {
     m,
     relativeTime: moment(m.created).fromNow(),
   });
+  document.getElementById('message').value = '';
 };
 
 document.getElementById('logo').src = logo;
